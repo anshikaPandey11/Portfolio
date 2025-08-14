@@ -73,20 +73,20 @@ npm run dev
 ```
 📦 PORTFOLIO/
 │
-├── 🗂️ public/                     🔸 Static assets (images, models, etc.)
-│   ├── 🖼 images/                  🖼 Project and personal images
-│   └── 📦 models/                  🎯 3D model files
+├── 🗂️ public/                     
+│   ├── 🖼 images/                  
+│   └── 📦 models/                  
 │
-├── 🗂️ src/                        🔸 Application source code
+├── 🗂️ src/                        
 │   │
-│   ├── 🗂️ components/              🔸 Reusable UI & animation components
-│   │   ├── 🗂 HeroModels/           🎯 3D hero section models
+│   ├── 🗂️ components/              
+│   │   ├── 🗂 HeroModels/           
 │   │   │   ├── 📑 HeroExperience.jsx
 │   │   │   ├── 📑 HeroLights.jsx
 │   │   │   ├── 📑 Particles.jsx
 │   │   │   └── 📑 Room.jsx
 │   │   │
-│   │   ├── 🗂 Models/               🎯 3D components for sections
+│   │   ├── 🗂 Models/               
 │   │   │   ├── 🗂 contact/
 │   │   │   │   ├── 📑 Computer.jsx
 │   │   │   │   └── 📑 ContactExperience.jsx
@@ -99,10 +99,10 @@ npm run dev
 │   │   ├── 📑 NavBar.jsx
 │   │   └── 📑 TitleHeader.jsx
 │   │
-│   ├── 🗂 constants/                🔸 Constant data & configs
+│   ├── 🗂 constants/               
 │   │   └── 📑 index.js
 │   │
-│   ├── 🗂 sections/                 🔸 Page sections
+│   ├── 🗂 sections/                
 │   │   ├── 📑 Contact.jsx
 │   │   ├── 📑 ExperienceSection.jsx
 │   │   ├── 📑 FeatureCards.jsx
@@ -128,7 +128,7 @@ npm run dev
 └── 📑 README.md
 ```
 
-📬 Contact </br>
+📬 Contact :- </br>
 💼 LinkedIn: https://www.linkedin.com/in/anshika-pandey-522760289
 </br>
 
