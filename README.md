@@ -1,9 +1,15 @@
 # 🌟 Interactive 3D Portfolio – Anshika Pandey
 
+![Portfolio Banner](banner.jpg) <!-- Replace with your actual banner image -->
+
 ![GitHub stars](https://img.shields.io/github/stars/anshikaPandey11/Portfolio?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anshikaPandey11/Portfolio?style=social)
 ![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
-![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react&logoColor=white)
+![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![Three.js Badge](https://img.shields.io/badge/Three.js-000?logo=threedotjs&logoColor=fff&style=for-the-badge)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+![GSAP Badge](https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=fff&style=for-the-badge)
+![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
 
 🚀 A **modern, interactive, and immersive** personal portfolio built with **React, Vite, Three.js, GSAP, and Tailwind CSS**.  
 Crafted to showcase my **skills, projects, and experience** with smooth animations and 3D visuals.
@@ -11,8 +17,7 @@ Crafted to showcase my **skills, projects, and experience** with smooth animatio
 ---
 
 <h1 align="center"> 
-
-<a href="http://portfolio-gamma-swart-35.vercel.app"><strong> ➥ Portfolio 🏕</strong></a>
+<a href="http://portfolio-gamma-swart-35.vercel.app"><strong> ➥ Live Portfolio 🏕</strong></a>
 </h1>
 
 ---
@@ -26,72 +31,111 @@ Crafted to showcase my **skills, projects, and experience** with smooth animatio
 
 ---
 
-## 🛠 Tech Stack
-| Technology     | Description |
-|---------------|-------------|
-| **React.js**  | Frontend library for building UI |
-| **Vite**      | Fast build tool |
-| **Three.js**  | 3D rendering engine |
-| **GSAP**      | High-performance animations |
-| **Tailwind CSS** | Utility-first CSS styling |
-| **Vercel**    | Hosting and deployment |
+## 💻 Tech Stack
+| Technology        | Description |
+|-------------------|-------------|
+| **React.js**      | Frontend library for building UI |
+| **Vite**          | Fast build tool |
+| **Three.js**      | 3D rendering engine |
+| **GSAP**          | High-performance animations |
+| **Tailwind CSS**  | Utility-first CSS styling |
+| **Vercel**        | Hosting and deployment |
 
 ---
 
-📦 Installation & Setup
-1️⃣ Clone the repository
-Windows 🖥️
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Linux / macOS 🍏
+## 📦 Installation & Setup
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
-2️⃣ Install dependencies
+### 1️⃣ Clone the repository
+**Windows 🖥️**
+```bash
+git clone https://github.com/anshikaPandey11/Portfolio.git
+cd Portfolio
+```
+**Linux / macOS 🍏**
+```bash
+git clone https://github.com/anshikaPandey11/Portfolio.git
+cd Portfolio
+```
+**2️⃣ Install dependencies**
+```bash
 npm install
-
-3️⃣ Start the development server
+```
+**3️⃣ Start the development server**
+```bash
 npm run dev
+```
+## 🌍 Open in Browser:
+🔗 [http://localhost:3000](http://localhost:3000)
 
+# 📁 Folder Structure
 
-🌍 Open in Browser:
-http://portfolio-gamma-swart-35.vercel.app
-
-
-📦 DEVFOLIO/
+📦 PORTFOLIO/
 │
-├── 🗂️ components/               → Reusable UI & animation components
-│   ├── 📑 Navbar.js              → Main navigation bar
-│   ├── 📑 Hero.js                → Hero section with intro
-│   ├── 📑 ProjectCard.js         → Project showcase card
-│   ├── 📑 ContactForm.js         → Contact form with validation
-│   ├── 📑 AnimatedBackground.js  → Particle/animated background
-│   └── 📑 Footer.js              → Footer with socials
+├── 🗂️ public/                     🔸 Static assets (images, models, etc.)
+│   ├── 🖼 images/                  🖼 Project and personal images
+│   └── 📦 models/                  🎯 3D model files
 │
-├── 🗂️ pages/                     → Next.js pages (routes)
-│   ├── 📑 index.js               → Homepage
-│   ├── 📑 about.js               → About section
-│   ├── 📑 projects.js            → Projects page
-│   └── 📑 contact.js             → Contact page
+├── 🗂️ src/                        🔸 Application source code
+│   │
+│   ├── 🗂️ components/              🔸 Reusable UI & animation components
+│   │   ├── 🗂 HeroModels/           🎯 3D hero section models
+│   │   │   ├── 📑 HeroExperience.jsx
+│   │   │   ├── 📑 HeroLights.jsx
+│   │   │   ├── 📑 Particles.jsx
+│   │   │   └── 📑 Room.jsx
+│   │   │
+│   │   ├── 🗂 Models/               🎯 3D components for sections
+│   │   │   ├── 🗂 contact/
+│   │   │   │   ├── 📑 Computer.jsx
+│   │   │   │   └── 📑 ContactExperience.jsx
+│   │   │   └── 🗂 TechLogos/
+│   │   │       └── 📑 TechLogos.jsx
+│   │   │
+│   │   ├── 📑 AnimatedCounter.jsx
+│   │   ├── 📑 Button.jsx
+│   │   ├── 📑 GlowCard.jsx
+│   │   ├── 📑 NavBar.jsx
+│   │   └── 📑 TitleHeader.jsx
+│   │
+│   ├── 🗂 constants/                🔸 Constant data & configs
+│   │   └── 📑 index.js
+│   │
+│   ├── 🗂 sections/                 🔸 Page sections
+│   │   ├── 📑 Contact.jsx
+│   │   ├── 📑 ExperienceSection.jsx
+│   │   ├── 📑 FeatureCards.jsx
+│   │   ├── 📑 Footer.jsx
+│   │   ├── 📑 Hero.jsx
+│   │   ├── 📑 LogoSection.jsx
+│   │   ├── 📑 ShowcaseSection.jsx
+│   │   ├── 📑 TechStack.jsx
+│   │   └── 📑 Testimonials.jsx
+│   │
+│   ├── 📑 App.jsx
+│   ├── 📑 index.css
+│   ├── 📑 main.jsx
+│   │
+│   └── 📑 index.html
 │
-├── 🗂️ public/                    → Static assets (images, icons, etc.)
-│
-├── 🗂️ styles/                    → Global styles
-│   └── 📑 globals.css
-│
-├── 📑 variants.js                → Framer Motion animation variants
-├── 📑 tailwind.config.js         → Tailwind configuration
-├── 📑 next.config.js             → Next.js configuration
-├── 📑 package.json               → Dependencies & scripts
-└── 📑 README.md                  → Documentation
+├── 📑 .env
+├── 📑 .gitignore
+├── 📑 eslint.config.js
+├── 📑 package.json
+├── 📑 package-lock.json
+├── 📑 vite.config.js
+└── 📑 README.md
 
 
-## **4️⃣ Add a Repo Banner**
-- Create a **banner image** (1200x400px) showing your portfolio homepage.
-- Save it as `banner.png` in the repo and add it to the top of the README like:
-```markdown
-![Portfolio Banner](banner.png)
+##📬 Contact
+📩 Email: your.email@example.com
+💼 LinkedIn: Your LinkedIn
+🐦 Twitter: @YourHandle
+
+```
+⭐ If you like this portfolio, consider giving the repository a star!
+
+```
+
+
+
 
