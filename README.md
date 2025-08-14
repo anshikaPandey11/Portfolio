@@ -1,6 +1,9 @@
 # 🌟 Interactive 3D Portfolio – Anshika Pandey
 
-![Portfolio Banner](banner.jpg) <!-- Replace with your actual banner image -->
+<p align="center">
+  <img src="assets/banner.jpg" alt="Banner" width="100%">
+</p>
+
 
 ![GitHub stars](https://img.shields.io/github/stars/anshikaPandey11/Portfolio?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anshikaPandey11/Portfolio?style=social)
