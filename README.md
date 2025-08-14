@@ -70,6 +70,7 @@ npm run dev
 
 ## 📁 Folder Structure
 
+```
 📦 PORTFOLIO/
 │
 ├── 🗂️ public/                     🔸 Static assets (images, models, etc.)
@@ -125,11 +126,12 @@ npm run dev
 ├── 📑 package-lock.json
 ├── 📑 vite.config.js
 └── 📑 README.md
-
+```
 
 ##📬 Contact
-📩 Email: anshika.pandey1103@gmail.com
 💼 LinkedIn: https://www.linkedin.com/in/anshika-pandey-522760289
+
+</br>
 
 ##⭐ If you like this portfolio, consider giving the repository a star!
 
