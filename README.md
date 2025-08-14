@@ -53,6 +53,7 @@ npm run dev
 
 # Build for production
 npm run build
+
 📸 Preview
 
 (Add screenshots here)
@@ -66,6 +67,7 @@ LinkedIn: Your Profile
 Portfolio: Your Portfolio Link
 
 
+
 ---
 
 ## **4️⃣ Add a Repo Banner**
@@ -73,3 +75,4 @@ Portfolio: Your Portfolio Link
 - Save it as `banner.png` in the repo and add it to the top of the README like:
 ```markdown
 ![Portfolio Banner](banner.png)
+
