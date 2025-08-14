@@ -128,12 +128,11 @@ npm run dev
 └── 📑 README.md
 ```
 
-##📬 Contact
+📬 Contact </br>
 💼 LinkedIn: https://www.linkedin.com/in/anshika-pandey-522760289
-
 </br>
 
-##⭐ If you like this portfolio, consider giving the repository a star!
+⭐ If you like this portfolio, consider giving the repository a star!
 
 
 
