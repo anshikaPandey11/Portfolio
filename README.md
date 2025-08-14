@@ -64,10 +64,8 @@ npm install
 ```bash
 npm run dev
 ```
-## 🌍 Open in Browser:
-🔗 [http://localhost:3000](http://localhost:3000)
 
-# 📁 Folder Structure
+## 📁 Folder Structure
 
 📦 PORTFOLIO/
 │
@@ -127,14 +125,11 @@ npm run dev
 
 
 ##📬 Contact
-📩 Email: your.email@example.com
-💼 LinkedIn: Your LinkedIn
-🐦 Twitter: @YourHandle
+📩 Email: anshika.pandey1103@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/anshika-pandey-522760289
 
-```
-⭐ If you like this portfolio, consider giving the repository a star!
+##⭐ If you like this portfolio, consider giving the repository a star!
 
-```
 
 
 
